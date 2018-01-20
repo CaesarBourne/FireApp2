@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FireApp</string>
+    <string name="Editer">Value</string>
+    <string name="FirebasePush">Add value to Firebase</string>
 </resources>

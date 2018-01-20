@@ -7,12 +7,21 @@
     tools:context="com.caesar.ken.fireapp.MainActivity">
 
 
-    <Button
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/senddata"
-        android:text="add value to database"
+        android:id="@+id/valuefield"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Editer"
         />
+
+    <Button
+        android:id="@+id/senddata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valuefield"
+        android:layout_margin="10dp"
+        android:text="add value to database" />
 
 
 
